@@ -1,5 +1,5 @@
 theme_nightout <- function(base_size = 11,
-                          base_family = "Futura LT") {
+                          base_family = "") {
   theme_grey(base_size = base_size,
              base_family = base_family) %+replace%
     theme(
@@ -36,7 +36,7 @@ theme_nightout <- function(base_size = 11,
 }
 
 theme_nightin <- function(base_size = 11,
-                          base_family = "Futura LT",
+                          base_family = "",
                           legend.position = c(.9, .8)) {
   theme_grey(base_size = base_size,
              base_family = base_family) %+replace%

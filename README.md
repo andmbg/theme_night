@@ -5,13 +5,10 @@
  It comes in two versions, with the legend inside or outside the plotting area.
  They are called `theme_nightin()` and `theme_nightout()`.
  For `theme_nightin()`, the problem arises as to where to place the legend without covering data.
- You should try and find a suitable location; when in doubt, use `nightout()`.
- `nightin()` is rather intended for when you want to put effort into presentation and an extra large plotting area.
- Pass the location as parameter, `legend.positio = c(x, y)` where "x" ranges from 0 (left) to 1 (right), and y from 0 (bottom) to 1 (top).
+ You should try and find a suitable location; when in doubt, use `theme_nightout()`.
+ `theme_nightin()` is rather intended for when you want to put effort into presentation and an extra large plotting area.
+ Pass the location as parameter, `legend.position = c(x, y)`, which ranges from `0, 0` (bottom left) to `1, 1` (top right).
  The reference point is the middle of the legend.
- 
- Also, I picked *Futura LT* as `base_family`. 
- It's a matter of taste and if you don't have it installed, that should be fine, with ggplot using the default font.
  
  ## Example plots
  
