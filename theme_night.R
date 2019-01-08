@@ -7,7 +7,8 @@ theme_nightout <- function(base_size = 11,
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       # Change plot and panel background
-      plot.background=element_rect(fill = "gray20"),
+      plot.background=element_rect(fill = "#201b18",
+                                   color = NA),
       plot.title = element_text(color = "white"),
       panel.background = element_rect(fill = 'black'),
       # Change legend 
@@ -45,7 +46,8 @@ theme_nightin <- function(base_size = 11,
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       # Change plot and panel background
-      plot.background=element_rect(fill = "gray20"),
+      plot.background=element_rect(fill = "#201b18",
+                                   color = NA),
       plot.title = element_text(color = "white"),
       panel.background = element_rect(fill = 'black'),
       # Change legend 
